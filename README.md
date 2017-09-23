@@ -12,6 +12,13 @@ Create a Service Bus instance on Azure and queue with Session and Partitioning e
 $ cd erlang_servicebus_client_demo
 $ git clone https://github.com/ParamountVentures/amqp-erlang-servicebus-demo
 $ cd amqp-erlang-servicebus-demo
+$ cd deps
+$ git clone https://github.com/rabbitmq/rabbitmq-amqp1.0-common.git
+$ cd rabbitmq-amqp1.0-common
+
+Ensure latest  make is installed https://erlang.mk/guide/installation.html :
+
+$ gmake (on Mac)
 
 Add the config details for Azure to src/myapp.app.src - placeholders are highlighted.
 
