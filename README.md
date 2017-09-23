@@ -15,16 +15,6 @@ $ git clone git@github.com:ParamountVentures/erlang-servicebus-client.git
 
 $ cd erlang-servicebus-client
 
-$ cd deps
-
-$ git clone https://github.com/rabbitmq/rabbitmq-amqp1.0-common.git
-
-$ cd rabbitmq-amqp1.0-common
-
-Ensure latest  make is installed https://erlang.mk/guide/installation.html :
-
-$ gmake (on Mac)
-
 Add the config details for Azure to src/myapp.app.src - placeholders are highlighted.
 
 $ ./rebar3 shell
