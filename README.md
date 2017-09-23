@@ -28,11 +28,14 @@ $ gmake (on Mac)
 Add the config details for Azure to src/myapp.app.src - placeholders are highlighted.
 
 $ ./rebar3 shell
+
 $ application:start(myapp).
 
 Send a message to Service Bus:
+
 $ myapp_app:send().
 
 Retrieve the message:
+
 $ myapp_app:retrieve().
 
