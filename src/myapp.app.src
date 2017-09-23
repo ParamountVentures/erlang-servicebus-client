@@ -1,0 +1,22 @@
+{application, myapp,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { myapp_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[
+    {"Address", "NAMESPACE.servicebus.windows.net"},
+    {"Hostname", <<"NAMESPACE.servicebus.windows.net">>},
+    {"Port", 5671},
+    {"User", <<"RootManageSharedAccessKey">>},
+    {"Password", <<"PASSWORD">>},
+    {"Queue", <<"QUEUE_NAME">>}
+  ]},
+  {modules, []},
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
