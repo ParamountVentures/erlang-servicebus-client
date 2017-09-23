@@ -5,7 +5,7 @@
 
 -module(myapp_app).
 
--include_lib("/rabbitmq-amqp1.0-client/src/amqp10_client.hrl").
+-include_lib("../../rabbitmq-amqp1.0-client/src/amqp10_client.hrl").
 
 -behaviour(application).
 
